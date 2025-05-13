@@ -19,8 +19,8 @@ void main() {
 
   // a = 12; // This will give an error because 'a' is declared as a String and cannot be reassigned to an int type value because 'var' is a static and final type
 
-  dynamic b = 20;
-  print(b);
+  // dynamic b = 20;
+  // print(b);
 
-  b = "Affan"; // This will not give an error because 'b' is declared as a dynamic type and can be reassigned to any type of value because 'dynamic' is a dynamic type
+  // b = "Affan"; // This will not give an error because 'b' is declared as a dynamic type and can be reassigned to any type of value because 'dynamic' is a dynamic type
 }
