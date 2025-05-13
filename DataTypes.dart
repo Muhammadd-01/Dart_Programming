@@ -23,4 +23,15 @@ void main() {
   // print(b);
 
   // b = "Affan"; // This will not give an error because 'b' is declared as a dynamic type and can be reassigned to any type of value because 'dynamic' is a dynamic type
+
+  // dynamic Name = "Affan";
+  // Name = 20;
+
+  // Name = 6.1;
+
+  // print(Name.runtimeType); // This will print the type of the variable 'Name' which is dynamic and if you check the type of the variable it will show the last assigned type which is double
+
+  dynamic a = 1234;
+
+  print(a.length); // This will give an error because 'a' is declared as a dynamic type and does not have a length property. The length property is only available for String and List types. That's why we use var instead of dynamic because var checks the type at compile time and dynamic checks the type at runtime. So, if you want to use the length property, you need to declare 'a' as a String or List type.
 }
