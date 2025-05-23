@@ -23,5 +23,7 @@ void main() {
 print("c /= 5 -> $c");
 
 
+  bool isTrue = true;
+  print("!isTrue = ${!isTrue}"); // Logical NOT: true → false
 
 }
