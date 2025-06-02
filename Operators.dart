@@ -19,11 +19,26 @@ void main() {
   print("c -= 5 -> $c");
   c *= 5;
   print("c *= 5 -> $c");
-  c ~/= 5; 
-print("c /= 5 -> $c");
-
+  c ~/= 5;
+  print("c /= 5 -> $c");
 
   bool isTrue = true;
   print("!isTrue = ${!isTrue}"); // Logical NOT: true → false
 
+  //Relational operators
+
+  a = 10;
+  b = 20;
+
+  print("a==b: ${a == b}");
+  print("a<b: ${a < b}");
+
+  //logical operators
+
+  bool x = true, y = false;
+
+  print("x && y: ${x && y}");
+  print("x || y: ${x || y}");
+
+  print("!x: ${!x}");
 }
