@@ -44,4 +44,12 @@ void main() {
   print(isLoggedIn && isAdmin);
   print(isLoggedIn || isAdmin);
   print(!isLoggedIn);
+
+  //Ternary Operator
+
+  int A = 20;
+
+  String message = (A >= 18) ? "Eligible" : "Not Eligible";
+
+  print(message);
 }
