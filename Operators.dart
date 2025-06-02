@@ -32,17 +32,16 @@ void main() {
 
   print("a==b: ${a == b}");
   print("a<b: ${a < b}");
-  print("a!=b: ${a !=b}");
+  print("a!=b: ${a != b}");
   print("a>b: ${a > b}");
   print("a<=b: ${a <= b}");
   print("a>=b: ${a >= b}");
 
   //logical operators
 
-  // bool x = true, y = false;
+  bool isLoggedIn = true, isAdmin = false;
 
-  // print("x && y: ${x && y}");
-  // print("x || y: ${x || y}");
-
-  // print("!x: ${!x}");
+  print(isLoggedIn && isAdmin);
+  print(isLoggedIn || isAdmin);
+  print(!isLoggedIn);
 }
