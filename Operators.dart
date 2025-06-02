@@ -45,6 +45,19 @@ void main() {
   print(isLoggedIn || isAdmin);
   print(!isLoggedIn);
 
+  // Conditional Operators
+
+  String Position = "First";
+
+  if (Position == "First") {
+    print("you are in first position");
+  } else if (Position == "Second") {
+    print("you are in second position");
+  } else if (Position == "Third") {
+    print("you are in third position");
+  } else {
+    print("You are Fail");
+  }
   //Ternary Operator
 
   int A = 20;
