@@ -58,6 +58,23 @@ void main() {
   } else {
     print("You are Fail");
   }
+
+  //Switch Case
+
+  String day = "Monday";
+
+  switch (day) {
+    case "Monday":
+      print("Today is Monday");
+      break;
+
+    case "Tuesday":
+      print("Today is Tuesday");
+      break;
+
+    default:
+      print("None of the above");
+  }
   //Ternary Operator
 
   int A = 20;
