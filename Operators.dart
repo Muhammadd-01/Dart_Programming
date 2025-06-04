@@ -82,4 +82,18 @@ void main() {
   String message = (A >= 18) ? "Eligible" : "Not Eligible";
 
   print(message);
+
+  int num1 = 55;
+
+  num1 = num1 + 20;
+
+  num1--;
+
+  --num1;
+
+  num1++;
+
+  num1--;
+
+  print(num1); // Output: 57
 }
