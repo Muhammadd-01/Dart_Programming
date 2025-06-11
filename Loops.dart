@@ -4,7 +4,12 @@ void main() {
   //   print("5 * $i = ${5 * i}");
   // }
 
-  for (int i = 1; i <= 15; i+=2) {
-    print(i);
+  // for (int i = 1; i <= 15; i+=2) {
+  //   print(i);
+  // }
+
+
+  for(int i = 1; i<=5; i++){
+    print("*");
   }
 }
