@@ -1,5 +1,10 @@
-void Main(){
+void main() {
+  //string interpolation
+  // for (int i = 1; i <= 10; i++) {
+  //   print("5 * $i = ${5 * i}");
+  // }
 
-
-  
+  for (int i = 1; i <= 15; i+=2) {
+    print(i);
+  }
 }
