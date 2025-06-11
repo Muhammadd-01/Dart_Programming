@@ -1,3 +1,5 @@
+import 'dart:io';
+
 void main() {
   //string interpolation
   // for (int i = 1; i <= 10; i++) {
@@ -8,8 +10,10 @@ void main() {
   //   print(i);
   // }
 
-
-  for(int i = 1; i<=5; i++){
-    print("*");
+  for (int i = 1; i <= 5; i++) {
+    for (int j = 1; j <= i; j++) {
+      stdout.write("*");
+    }
+    print("");
   }
 }
