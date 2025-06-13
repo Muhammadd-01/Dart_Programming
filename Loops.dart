@@ -33,10 +33,7 @@ void main() {
     if (i % 2 == 0) ;
     // print(i);
   }
-  int i = 1;
-  while if(){
 
   }
 
-  };
-}
+  
