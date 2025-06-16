@@ -37,12 +37,14 @@ void checkAge(int age) {
   }
 }
 
-//optional parameter function
+//optional parameters function
 
 void cityCheck(String name, [String? city]) {
   print("Hello $name from ${city ?? 'Unknown City'}");
 }
 
+
+//Named parameters function
 void details({String? name, int? age}) {
   print("Hello $name -- your age is $age ");
 }
