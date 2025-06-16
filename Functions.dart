@@ -16,7 +16,7 @@ void main() {
 
   // cityCheck("Affan", "Karachi");
 
-  details(name: "Affan",age:20);
+  // details(name: "Affan",age:20);
 }
 
 //Arrow shorthand function
