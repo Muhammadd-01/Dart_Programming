@@ -14,7 +14,9 @@ void main() {
 
   // checkAge(age);
 
-  cityCheck("Affan", "Karachi");
+  // cityCheck("Affan", "Karachi");
+
+  details(name: "Affan",age:20);
 }
 
 //Arrow shorthand function
@@ -39,4 +41,8 @@ void checkAge(int age) {
 
 void cityCheck(String name, [String? city]) {
   print("Hello $name from ${city ?? 'Unknown City'}");
+}
+
+void details({String? name, int? age}) {
+  print("Hello $name -- your age is $age ");
 }
