@@ -1,4 +1,5 @@
-import 'dart:async';
+// Inheritance in Dart
+// Inheritance allows a class to inherit properties and methods from another class. This promotes code reusability and establishes a relationship between classes.
 
 class stdOne {
   String name = "";
