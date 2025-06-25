@@ -8,7 +8,8 @@ class Student {
 
 class Teacher extends Student {
   void Display() {
-    print("This is a Teacher class");
+    super.Display();
+    // print("This is a Teacher class");
   }
 }
 
